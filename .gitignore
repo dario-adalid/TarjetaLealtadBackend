@@ -1,32 +1,18 @@
-# Prerequisites
-*.d
+# Build results
+[Bb]in/
+[Oo]bj/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Visual Studio
+.vs/
+*.suo
+*.user
 
-# Precompiled Headers
-*.gch
-*.pch
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/[Pp]ackages/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates   
